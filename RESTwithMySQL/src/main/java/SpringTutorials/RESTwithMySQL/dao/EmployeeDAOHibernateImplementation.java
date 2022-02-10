@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import javax.persistence.EntityManager;
 import java.util.List;
 
-//    !!! Native hibernate Query solution !!!
+//    !!! version 1 - Native hibernate Query solution !!!
 
 @Repository
 public class EmployeeDAOHibernateImplementation implements EmployeeDAO{
